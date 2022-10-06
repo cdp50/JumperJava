@@ -3,25 +3,27 @@
 With this software I'm trying to get familiar with the code language Java by creating a simple game using variable declarations,
 if statements, loops, functions, and classes. 
 
-
-
 you can watch my video explaining my Work here. 
+https://youtu.be/Daq5E6qzI2I
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+in order to acomplish this task I used Visual Studio Code although I learned that to code on Java is better to use Rider. 
 
-{Describe the programming language that you used and any libraries.}
+I didn't know much about this language before this project and now that I did it I feel much more comfortable with it I
+understand why people say that is similar to C#.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+Here are the main websites that helped me understand how to use Java
+* [w3schools](https://www.w3schools.com/java/default.asp)
+* [YouTube](https://www.youtube.com/playlist?list=PLGvSGybWnP7XhS18swfqJZBRQ-TNj6xUC) the link of youtube is actually a 
+link to the whole playlists I made of videos that helped complete the project.
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+part of what I think I can still improve is 
+
+* better understanding of data types in Java. 
+* data structure in Java.
+* classes, design in Java. 

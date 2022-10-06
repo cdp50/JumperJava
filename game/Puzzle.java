@@ -117,7 +117,6 @@ public class Puzzle {
             System.out.print(item);
         } 
     }
-
     /*
      * The responsibility of updateBoard()is to cut the parechute if necesary and
      * display the letters that are correct. 
@@ -125,7 +124,7 @@ public class Puzzle {
     public void updateBoard()
     {   
         
-        if (guessed != false)
+        if (guessed == false)
         {
             wrongCount += 1;
             if (wrongCount == 1)
@@ -155,28 +154,7 @@ public class Puzzle {
                 desition5 = "  x";
                 gameOver = true;
             }
-        // }else     
-        //     { 
-        //     winCounter += 1; 
-        //     for(String letter : leterList)  
-        //     {
-        //         if (letter.equals(letter_guessed))
-        //     {   
-        //         int index = leterList.indexOf(letter);
-        //         mysterious_word_List.set(index, letter);
-        //     }
-        //     }
-        //     if (winCounter == leterList.size());
-        //     {
-        //         gameOver = true;
-        //     } 
-        //     // print the the list that shows the guessed letters. 
-        //     for(String item : mysterious_word_List)
-        //     {
-        //         System.out.print(item);
-        //     } 
-        //     }
-        
+        }
         terminalService.WriteText(" ");
         terminalService.WriteText(" ");
         mysterious_word_update();
@@ -192,6 +170,4 @@ public class Puzzle {
         terminalService.WriteText("^^^^^^^");
         terminalService.WriteText(" ");
     }
-
-
-}}
+}
